@@ -22,3 +22,17 @@ h1 {
 .nav-link:hover {
     @apply text-yellow-500;
 }
+
+/* Button Styles */
+.btn {
+    @apply border border-yellow-500 bg-yellow-500 rounded-md px-5 py-2 
+    duration-300;
+}
+
+.btn span {
+    @apply font-bold;
+}
+
+.btn:hover {
+    @apply bg-transparent text-yellow-500 opacity-90;
+}
