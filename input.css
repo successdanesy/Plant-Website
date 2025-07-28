@@ -61,3 +61,11 @@ h3 {
     @apply border border-yellow-500 bg-yellow-500 text-white rounded-md px-5 py-2 
     duration-300 transform hover:scale-105;
 }
+
+.popular__card:hover img{
+    @apply -top-8;
+}
+
+.swiper-pagination-bullet {
+    @apply bg-green-500 !important;
+}
