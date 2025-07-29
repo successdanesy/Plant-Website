@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply overflow-x-hidden scroll-smooth;
+}
+
 body {
     @apply bg-green-950  text-white  font-Jost tracking-wider;
 }
@@ -32,6 +36,11 @@ h3 {
           after:bg-yellow-500 after:w-0 
           hover:after:w-full after:origin-left
           after:transition-all after:duration-300 after:ease-in-out;
+}
+
+/*active link*/
+.active {
+    @apply text-yellow-500;
 }
 
 .title {
